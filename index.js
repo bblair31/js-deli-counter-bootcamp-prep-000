@@ -13,5 +13,6 @@ function currentLine(katzDeliLine) {
   for (var i = 0;i < katzDeliLine.length;i++) {
     lineArray.push([i + 1] + ". " + katzDeliLine[i])
   }
- return lineArray.join() 
+ lineArray.join() 
+ returnTostring
 } 
