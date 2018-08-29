@@ -9,9 +9,9 @@ function nowServing(katzDeliLine) {
     return "There is nobody waiting to be served!"
 } 
 function currentLine(katzDeliLine) {
-  var lineArray = [`The line is currently: `]
+  var lineArray = []
   for (var i = 0;i < katzDeliLine.length;i++) {
     lineArray.push([i + 1] + ". " + katzDeliLine[i])
   }
- return lineArray.toString()
+ return  lineArray.toString()
 } 
