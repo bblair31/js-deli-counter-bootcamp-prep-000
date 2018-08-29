@@ -13,5 +13,5 @@ function currentLine(katzDeliLine) {
   for (var i = 0;i < katzDeliLine.length;i++) {
     lineArray.push([i + 1] + ". " + katzDeliLine[i])
   }
- return `The line is currently:  lineArray.toString()
+ return `The line is currently: ${lineArray.toString()}`
 } 
