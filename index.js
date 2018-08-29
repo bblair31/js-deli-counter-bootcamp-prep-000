@@ -14,5 +14,5 @@ function currentLine(katzDeliLine) {
     lineArray.push([i + 1] + ". " + katzDeliLine[i])
   }
  lineArray.join() 
- returnTostring
+ return
 } 
